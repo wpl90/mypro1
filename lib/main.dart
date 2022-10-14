@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.green,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Changing title for test of changing commit message'),
     );
   }
 }
