@@ -53,6 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
               '''You have pushed the button this many times:
 in the main branch.
 and on the hotfix branch, I have done some argent fix.              
+
+After fixing conflict, I deleted testing's contents.           
 ''',
             ),
             Text(
