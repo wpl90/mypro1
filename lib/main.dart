@@ -44,10 +44,13 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        //TODO:↑の方法でappbarの色を黒にするとタイトルが見えなくなるので対応する。
         title: Text(
           widget.title,
-
+          style:TextStyle(
+            //https://qiita.com/y1row/items/2c6ad757d870cbb512fe
+            //↓よくわからないが、背景色黒で一応タイトルが見えるようになった。
+            color: Colors.black.computeLuminance()<0.4 ? Colors.white:Colors.black,
+          ),
         ),
       ),
       body: Center(
