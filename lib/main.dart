@@ -43,7 +43,12 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        backgroundColor: Colors.black,
+        //TODO:↑の方法でappbarの色を黒にするとタイトルが見えなくなるので対応する。
+        title: Text(
+          widget.title,
+
+        ),
       ),
       body: Center(
         child: Column(
